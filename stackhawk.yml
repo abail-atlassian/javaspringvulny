@@ -6,7 +6,8 @@ app:
     - "/logout"
 #    - "/login-form-multi"
 #    - "/login-code"
-  antiCsrfParam: "_csrf"
+#    - "/login-codea"
+antiCsrfParam: "_csrf"
   authentication:
     loggedInIndicator: "\\QSign Out\\E"
     loggedOutIndicator: ".*Location:.*/login.*"
