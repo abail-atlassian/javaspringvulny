@@ -1,7 +1,7 @@
 app:
-  applicationId: ${APP_ID:d1b90960-6277-457e-b626-9308ca8dce1b}
-  env: ${APP_ENV:Production}
-  host: ${APP_HOST:https://localhost:9000}
+  applicationId: d1b90960-6277-457e-b626-9308ca8dce1b
+  env: Production
+  host: https://localhost:9000
   excludePaths:
     - "/logout"
 #    - "/login-form-multi"
