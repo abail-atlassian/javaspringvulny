@@ -4,8 +4,9 @@ app:
   host: https://localhost:9000
   excludePaths:
     - "/logout"
-#    - "/login-form-multi"
-#    - "/login-code"
+    - "/login-form-multi"
+    - "/login-code"
+    - "/search"
   antiCsrfParam: "_csrf"
   authentication:
     loggedInIndicator: "\\QSign Out\\E"
