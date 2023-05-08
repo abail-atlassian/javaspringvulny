@@ -30,7 +30,9 @@ jobs:
           configurationFiles: ${{ github.event.client_payload.configFile }}
           sourceURL: ${{ github.event.client_payload.hawkscanSourceUrl }}
           version: ${{ github.event.client_payload.hawkscanVersion }}
-          verbose: ${{ github.event.client_payload.verbose }}
+          verbose: true
+          codeScanningAlerts: false
+          debug: true
         env:
           # APPLICATION_ID: ${{ github.event.client_payload.appId }}
           APP_ID: ${{ github.event.client_payload.appId }}
