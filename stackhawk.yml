@@ -4,7 +4,7 @@ app:
   host: https://localhost:9000
   excludePaths:
     - "/logout"
-#    - "/login-form-multi"
+    - "/login-form-multi"
 #    - "/login-code"
   antiCsrfParam: "_csrf"
   authentication:
