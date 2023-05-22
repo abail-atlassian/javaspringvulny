@@ -29,7 +29,7 @@ jobs:
         id: run-hawkscan
         uses: stackhawk/hawkscan-action@main
         with:
-          apiKey: ${{ secrets.HAWK_API_KEY }}
+          apiKey: ${{ secrets.HAWK_API_KEY_2 }}
           configurationFiles: ${{ github.event.client_payload.configFile }}
           sourceURL: ${{ github.event.client_payload.hawkscanSourceUrl }}
           version: ${{ github.event.client_payload.hawkscanVersion }}
