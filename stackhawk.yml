@@ -1,5 +1,5 @@
 app:
-  applicationId: 12f3d180-0a59-4b75-993c-2c086e15a3dc
+  applicationId: dbfd4701-d15b-41cd-b343-bdbe6d85f810
   env: Production
   host: https://localhost:9000
   excludePaths:
